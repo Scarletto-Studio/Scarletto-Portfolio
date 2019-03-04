@@ -15,7 +15,8 @@ body {
 }
 
 .github,
-.portfolio {
+.portfolio,
+.facebook {
     display: inline;
     margin: 13px;
     font-size: 25px;
@@ -27,7 +28,8 @@ body {
 }
 
 .github:hover,
-.portfolio:hover {
+.portfolio:hover,
+.facebook:hover {
     opacity: 1;
 }
 
@@ -37,6 +39,10 @@ body {
 
 .github > a {
     color: rgb(255,116,88);
+}
+
+.facebook > a {
+    color: rgb(88,116,255);
 }
 
 .footer {
