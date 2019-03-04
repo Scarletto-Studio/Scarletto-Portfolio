@@ -17,16 +17,18 @@ body {
 .portfolio {
     text-align: center;
     font-size: 25px;
+    opacity: 0.5;
+    transition: 0.4s;
+    font-family: 'Bauhaus 93';
 }
 
-.github,
-.portfolio a:link {
-    color: black;
-    text-decoration: none;
+.github:hover,
+.portfolio:hover {
+    opacity: 1;
 }
 
-.github,
-.portfolio a:visited {
+.github > a:visited,
+.portfolio > a:visited {
     color: purple;
     text-decoration: none;
 }
