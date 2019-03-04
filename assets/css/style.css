@@ -31,10 +31,12 @@ body {
     opacity: 1;
 }
 
-.github > a:visited,
-.portfolio > a:visited {
+.portfolio > a {
     color: rgb(144, 88, 255);
-    text-decoration: none;
+}
+
+.github > a {
+    color: rgb(255,116,88);
 }
 
 .footer {
