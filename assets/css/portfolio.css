@@ -55,3 +55,20 @@ body {
     background: rgb(250, 247, 151);
     box-shadow: 3px 3px 3px rgb(0,0,0,0.25);
 }
+
+.home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 20%;
+    padding: 5px;
+    background: rgb(247,246,212);
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.25);
+}
+
+.home:hover {
+    background: rgb(250, 247, 151);
+    box-shadow: 3px 3px 3px 3px rgb(0,0,0,0.25);
+}
