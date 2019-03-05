@@ -21,15 +21,6 @@ body {
     color: rgb(68, 68, 68);
 }
 
-.navbar {
-    display: block;
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: -50%;
-    box-shadow: 2px 1px 2px rgb(0,0,.25);
-}
-
 .navbar > ul {
     position: relative;
     text-align: center;
@@ -42,4 +33,25 @@ body {
     text-align: center;
     margin: 50px;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.game,
+.web,
+.mobile,
+.design,
+.other {
+    padding: 5px;
+    background: rgb(247,246,212);
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.25);
+}
+
+.game:hover,
+.web:hover,
+.mobile:hover,
+.design:hover,
+.other:hover {
+    background: rgb(250, 247, 151);
+    box-shadow: 3px 3px 3px rgb(0,0,0,0.25);
 }
